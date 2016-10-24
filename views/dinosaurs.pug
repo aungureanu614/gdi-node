@@ -1,1 +1,7 @@
-// For-Each Loop in Jade: http://jade-lang.com/reference/iteration/
+extends layout.pug
+
+block content
+    h1 Dinosaurs page
+    ul
+        each val in name
+            li=val.name

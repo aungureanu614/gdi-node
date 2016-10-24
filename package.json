@@ -1,0 +1,25 @@
+{
+  "name": "gdi-node",
+  "version": "1.0.0",
+  "description": "## Development Install Node and NVM.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/esthersweon/gdi-node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6",
+    "request": "^2.75.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
